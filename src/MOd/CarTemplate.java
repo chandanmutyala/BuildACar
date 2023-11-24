@@ -18,6 +18,8 @@ public abstract  class CarTemplate {
         Engine engine = getEngine();
         Ac ac = getAc();
         Controls controls = getControls();
+        carWheels(4);
+        carColor("Blue");
 
         System.out.println("Car details:");
         System.out.println("Engine details - Horsepower: " + engine.getHorsePower() + ", Weight: " + engine.getWeight());
